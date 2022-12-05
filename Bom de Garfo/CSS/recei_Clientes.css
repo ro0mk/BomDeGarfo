@@ -1,0 +1,269 @@
+#titulo_Receitas_Cliente h2{
+    color: #FF7919;
+    margin: auto;
+    font-weight: bold;
+}
+
+.receitascab h2{
+    text-shadow: 2px 2px rgba(255, 98, 0, 0.5);
+    font-weight: bold;
+}
+
+.receitascab h4{
+    text-shadow: 2px 2px rgba(255, 98, 0, 0.5);
+    margin: auto 50px;
+}
+
+.categoriasnav_Clientes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding-top: 60px;
+    border-bottom: 4px solid #ff6a00;
+}
+
+.nav-link{
+    color: #fff;
+    border: 1px solid #ff6a00;
+    background-color: #ff6a00 ;
+    border-radius: 10px;
+    min-width: 135px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 5px;
+  }
+  .nav-link:hover{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.05);
+  }
+
+
+/* Botoes Carrousel */
+
+.img_carosel{
+    width: 600px;
+}
+
+
+#prev{
+    background-color: #ff791a;
+    height: 200px;
+    width: 100px;
+    margin: auto;
+    border-radius: 20px;
+    opacity: 1;
+    transition: .3s;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+#prev:hover{
+    background-color: #B34A00;
+}
+
+#next{
+    background-color: #FF7919;
+    height: 200px;
+    width: 100px;
+    margin: auto;
+    border-radius: 20px;
+    opacity: 1;
+    transition: .3s;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+#next:hover{
+    background-color: #B34A00;
+}
+
+
+
+/* Botoes Carrousel Fim */
+
+
+#receita_Cliente{
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#submeter_Receita{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card{
+    width: 252px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card img{
+    width: 250px;
+}
+
+
+/* Search bar */
+#search{
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+
+
+#searchBar{
+    margin: 0;
+    width: 50%;
+    height: 60px;
+    border: none;
+    border-bottom: #FF7919 solid 6px;
+    border-left: #FF7919 solid 6px;
+    border-top: #FF7919 solid 6px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#searchBtn{
+    margin: 0;
+    background-color: #FF7919;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-top: solid 6px #FF7919;
+    border-right: solid 6px #FF7919;
+    border-bottom: solid 6px #FF7919;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+
+#searchBtn:hover{
+    background-color: #B34A00;
+}
+
+#searchBtn img{
+    width: 35px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+/* Search bar Fim*/
+
+.receitascab{
+    padding-bottom: 30px;
+    text-align: center;
+    background: url(../IMG/bannerteste.png);
+}
+
+.categoriasnav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding-top: 60px;
+    border-bottom: 4px solid #ff6a00;
+  }
+
+#form_recei{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#flip{
+    display: flex;
+    margin: auto;
+    background-color: #ff6a00;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin-bottom: 50px;
+    transition-duration: 1s;
+}
+
+
+@media(max-width: 900px){
+
+    #prev{
+        height: 90px;
+        width: 80px;
+        margin-left: 0;
+    }
+    
+    #next{
+        height: 90px;
+        width: 80px;
+        margin-right: 0;
+    }
+
+    #carouselExampleControls{
+        width: 800px;
+        margin: auto;
+    }
+
+    .carousel-inner img{
+        width: 400px;
+
+    }
+
+}
+
+@media(max-width: 500px){
+
+    #prev{
+        height: 90px;
+        width: 80px;
+        margin-left: 0;
+    }
+    
+    #next{
+        height: 90px;
+        width: 80px;
+        margin-right: 0;
+    }
+
+    #carouselExampleControls{
+        width: 400px;
+        margin: auto;
+    }
+
+    .carousel-inner img{
+        width: 300px;
+
+    }
+
+}

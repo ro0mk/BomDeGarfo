@@ -1,0 +1,327 @@
+.rotated {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -moz-transform: rotate(90deg); /* Firefox */
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+    -o-transform: rotate(90deg); /* Opera */
+    transition: all ease-in-out 2s;
+}
+
+.dropColor{
+    cursor: auto;
+    background-color: #a3ceff;
+    height: 80px;
+}    
+
+#top{
+    width: 100%;
+    padding: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+#search{
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+
+
+#searchBar{
+    margin: 0;
+    width: 50%;
+    height: 60px;
+    border: none;
+    border-bottom: #FF7919 solid 6px;
+    border-left: #FF7919 solid 6px;
+    border-top: #FF7919 solid 6px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#searchBtn{
+    margin: 0;
+    background-color: #FF7919;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-top: solid 6px #FF7919;
+    border-right: solid 6px #FF7919;
+    border-bottom: solid 6px #FF7919;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+
+#searchBtn:hover{
+    background-color: #B34A00;
+}
+
+#searchBtn img{
+    width: 35px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+#containersDrop{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: max-content;
+
+}
+
+#faqContainer1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    width: 600px;
+}
+
+#faqContainer2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    width: 600px;
+}
+
+#result_Search{
+    margin-bottom: 70px;
+     
+}
+
+
+.faq{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.faq h2{
+    font-size: 22pt;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#title_Faq{
+    height: 50px;
+}
+
+#title_Faq h3{
+    color: #FF7919;
+    font-size: 26pt;
+    position: relative; 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+#formGroupExampleInput{
+    width: 70%;
+    margin: auto;
+}
+
+#form_Grupo input.submit_Pergunta{
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    background-color: #ff6a00;
+    border: #ff6a00 solid 3px;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: -225px;
+    transition-duration: 1s;
+}
+
+#form_Grupo input.submit_Pergunta:hover{
+    background-color: #B34A00;
+    border: #B34A00 solid 3px;
+}
+
+.dropdownContainer{
+    width: 550px;
+    height: 60px;
+    padding: 0 5px;
+    background-color: #ff6a00;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.dropdownContainer:hover{
+    background-color: #B34A00;
+    
+}
+
+.dropdownContainer img{
+    margin: 0 10px 0 0;
+    width: 40px;
+    float: left;
+    transition: all .5s ease-in;
+}
+
+.dropdownContainer b{
+    color: white;
+    text-align: left;
+    justify-content: left;
+}
+
+
+.dropdownContainer h5{
+    font-size: 16px;
+    margin: 0;
+    padding: 3px 0 0 0;
+    font-weight: normal;
+    color: #24262b;
+}
+
+.dropText{
+   padding: 0 15px;
+   border-left: 1px solid #ff6a00;
+   margin-left: 25px;
+   font-size: 14px;
+   text-align: justify;
+   overflow: hidden;
+   max-height: 0;
+   transition: all .5s ease-in;
+   width: 85%;
+}
+
+#titulo_Questao h2 {
+    color: #FF7919;
+    font-size: 22pt;
+    position: relative; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+#flip {
+    display: flex;
+    margin: auto;
+    background-color: #ff6a00;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin-bottom: 50px;
+    transition-duration: 1s;
+}
+
+#flip:hover{
+    height: 120px;
+    width: 120px;
+
+}
+
+#form_Grupo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+#form_Grupo label{
+    margin-left: 170px;
+    font-size: 20pt;
+    font-weight: 1000;
+    color: #FF7919;
+}
+
+#form_Grupo input{
+
+    margin-bottom: 30px;
+}
+
+#warning{
+text-align: left;
+margin-left: -225px;
+font-weight: 800;
+font-size: 13pt;
+color: #FF7919;
+}
+
+.warning1{
+    width: 400px;
+}
+
+.submit-Group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+@media(max-width: 1400px){
+    #faqContainer2{
+        display: none;
+    }
+    
+}
+
+
+@media(max-width: 900px){
+
+
+    .faq h3{
+        width: 350px;
+    }
+}
+
+@media(max-width: 600px){
+
+
+    .faq h3{
+        width: 250px;
+    }
+
+    .dropdownContainer{
+        width: 360px;
+        height: 55px;
+
+    }
+
+    .dropdownContainer b{
+        text-align: left;
+        justify-content: left;
+    }
+
+    #faqContainer2{
+        display: none;
+    }
+}
